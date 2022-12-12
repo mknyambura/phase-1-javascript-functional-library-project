@@ -3,9 +3,8 @@ function myEach (collection, callback){
     const i = 0;
     while (i < newCollection.length){
         callback(newCollection[i]);
-        i=i+1
-    }
-    return collection;
+        i=i+1;
+    }return collection;
 };
 
 function myMap (collection, callback){
